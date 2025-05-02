@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Map" style="flex-grow: 1; background-color: rgb(41, 31, 45);">
+        <ui:VisualElement name="top" style="flex-grow: 1; flex-direction: row; min-height: auto; height: 8px;">
+            <ui:VisualElement name="left" style="flex-grow: 1;" />
+            <ui:VisualElement name="center" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="MAP" parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="false" style="color: rgb(255, 255, 255); font-size: 25%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="right" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom" style="flex-grow: 1; height: 60%; flex-direction: row;">
+            <ui:VisualElement name="left" style="flex-grow: 1; background-image: resource(&apos;Group 2&apos;);" />
+            <ui:VisualElement name="right" style="flex-grow: 1; background-color: rgb(17, 12, 18);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
