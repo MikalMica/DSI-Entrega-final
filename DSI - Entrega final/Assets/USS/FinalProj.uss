@@ -7,11 +7,36 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    border-left-color: rgb(0, 0, 0);
-    border-right-color: rgb(0, 0, 0);
-    border-top-color: rgb(0, 0, 0);
-    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-image: resource('No');
+    min-width: 75%;
+    min-height: 75%;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.Selected {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.Unselected {
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.Square {
+    background-image: resource('Diseño sin título(39) 3');
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.item {
+}
+
+.container {
 }
 
 .unity-text-element {
