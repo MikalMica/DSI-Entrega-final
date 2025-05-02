@@ -1,6 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
-    <ui:VisualElement name="Item" style="flex-grow: 1; max-width: 33%; max-height: 17%;">
-        <ui:VisualElement name="Image" style="flex-grow: 1; background-image: resource(&apos;skibidi&apos;); border-top-width: 0; -unity-slice-top: 0; -unity-slice-scale: 1px; margin-top: 10px; margin-right: 10px; margin-left: 10px;" />
-        <ui:VisualElement name="Base" style="flex-grow: 1; max-width: none; max-height: 17%; background-image: resource(&apos;Decorados texto/Decorado_3&apos;);" />
-    </ui:VisualElement>
-</ui:UXML>
