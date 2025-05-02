@@ -13,3 +13,25 @@
     border-top-color: rgb(0, 0, 0);
     border-bottom-color: rgb(0, 0, 0);
 }
+
+.unity-text-element {
+    color: rgb(255, 255, 255);
+    -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=9771268da94f81a4b884af26e952c12a&type=3#NotInter-Regular");
+}
+
+.legenInfo {
+    height: 40px;
+    width: 70px;
+    translate: -30% 0;
+}
+
+.legendImage {
+    width: 20px;
+    height: 20px;
+}
+
+.legendText {
+    flex-grow: 1;
+    width: 20px;
+    font-size: 10px;
+}
