@@ -18,7 +18,7 @@
             <ui:VisualElement name="right" style="flex-grow: 1; background-color: rgb(17, 12, 18); max-width: 30%;">
                 <ui:VisualElement name="top" style="flex-grow: 1;">
                     <ui:Label tabindex="-1" text="LEGEND" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" style="-unity-text-align: upper-center;" />
-                    <ui:VisualElement name="decoration" style="flex-grow: 1; background-image: resource(&apos;Decoracion&apos;);" />
+                    <ui:VisualElement name="decoration" style="flex-grow: 1; background-image: resource(&apos;Decoracion&apos;); scale: 1 1.1;" />
                 </ui:VisualElement>
                 <ui:VisualElement name="bottom" style="flex-grow: 1; height: 80%; justify-content: flex-start; align-self: stretch;">
                     <ui:VisualElement name="legend" style="flex-grow: 1; width: 100%; height: 25%; align-self: stretch; justify-content: space-around; align-items: center;">
