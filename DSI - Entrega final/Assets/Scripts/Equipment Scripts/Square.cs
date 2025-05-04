@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
-
-public class Item : MonoBehaviour
+public class Square : MonoBehaviour
 {
     ItemInfo _mInfo;
     VisualElement _mRoot;
-    // TODO Hacer elementos de Items;
+    VisualElement _mImageSquare;
 
-    public Item(VisualElement root, ItemInfo info){
+    public Square(VisualElement root, ItemInfo info){
         _mInfo = info;
         _mRoot = root;
 
+        _mImageSquare = _mRoot.Q("Item");
         _mRoot.userData = _mInfo;
 
         UpdateUI();
@@ -22,14 +22,12 @@ public class Item : MonoBehaviour
     }
 
     void UpdateUI(){
+        Debug.Log("Adding to: " + _mInfo.Image);
         _mImageSquare.AddToClassList(_mInfo.Image);
     }
 
     void RemoveCurrentImage(){
+        Debug.Log("Removing from: " + _mInfo.Image);
         _mImageSquare.RemoveFromClassList(_mInfo.Image);
-    }
-
-    string getImageName(){
-        return _mInfo.Image;
     }
 }

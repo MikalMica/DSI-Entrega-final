@@ -5,7 +5,8 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class ItemInfo : MonoBehaviour
+[Serializable]
+public class ItemInfo
 {
     public event Action Cambio;
     public event Action preCambio;
@@ -24,7 +25,7 @@ public class ItemInfo : MonoBehaviour
     public string Info{
         get{return _info;}
         set{
-            _info = value;
+            _info = "\n\n" + value;
             Cambio?.Invoke();
         }
     }
@@ -40,8 +41,8 @@ public class ItemInfo : MonoBehaviour
     }
 
     public ItemInfo(string name, string info, string image){
-        _image = image;
-        _name = name;
-        _info = info;
+        Image = image;
+        Name = name;
+        Info = info;
     }
 }

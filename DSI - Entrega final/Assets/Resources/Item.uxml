@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Item" class="item" style="flex-grow: 1; max-width: 33%; max-height: 17%; min-width: 33%; min-height: 17%;">
+        <ui:VisualElement name="Image" style="flex-grow: 1; border-top-width: 0; -unity-slice-top: 0; -unity-slice-scale: 1px; margin-top: 10px; margin-right: 10px; margin-left: 10px; min-height: 80%; min-width: 100%;">
+            <ui:VisualElement name="ItemInfo" class="Invisible" style="flex-grow: 1; background-color: rgb(0, 0, 0); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; justify-content: flex-start;">
+                <ui:Label tabindex="-1" text="Name&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemName" style="max-width: none; max-height: 50%; font-size: 20px; white-space: normal;" />
+                <ui:Label tabindex="-1" text="Description" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemDesc" focusable="false" usage-hints="None" enable-rich-text="true" style="text-overflow: clip; white-space: normal; font-size: 10px; -unity-text-align: upper-left;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Selection" class="Unselected" style="flex-grow: 1; background-image: resource(&apos;Marco de seleccion&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Base" style="flex-grow: 1; max-width: none; max-height: 17%; background-image: resource(&apos;Diseño sin título(3) 7&apos;); min-width: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

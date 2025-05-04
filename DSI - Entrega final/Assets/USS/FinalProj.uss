@@ -12,7 +12,6 @@
     border-right-color: rgba(0, 0, 0, 0);
     border-top-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
-    background-image: resource('No');
     min-width: 75%;
     min-height: 75%;
     max-width: 75%;
@@ -21,10 +20,12 @@
 
 .Selected {
     -unity-background-image-tint-color: rgb(255, 255, 255);
+    display: flex;
 }
 
 .Unselected {
     -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    display: none;
 }
 
 .Square {
@@ -41,7 +42,7 @@
 
 .unity-text-element {
     color: rgb(255, 255, 255);
-    -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=9771268da94f81a4b884af26e952c12a&type=3#NotInter-Regular");
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=9771268da94f81a4b884af26e952c12a&type=3#NotInter-Regular');
 }
 
 .legenInfo {
@@ -59,4 +60,44 @@
     flex-grow: 1;
     width: 20px;
     font-size: 10px;
+}
+
+.No {
+    background-image: resource('No');
+}
+
+.Espadas {
+    background-image: resource('Espada del Caos');
+}
+
+.Visible {
+    display: flex;
+}
+
+.Invisible {
+    display: none;
+}
+
+.Dagas {
+    background-image: resource('Dagas Eclipse');
+}
+
+.Arco {
+    background-image: resource('Arco Fenix');
+}
+
+.Casco {
+    background-image: resource('Casco Protector');
+}
+
+.Varita {
+    background-image: resource('Varita de Jotunn');
+}
+
+.Daga {
+    background-image: resource('Daga Rasgamundos');
+}
+
+.Capa {
+    background-image: resource('SoulCape');
 }
