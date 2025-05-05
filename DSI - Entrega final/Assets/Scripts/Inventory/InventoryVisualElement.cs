@@ -3,14 +3,14 @@ using UnityEngine;
 using UnityEngine.UIElements;
 public class InventoryVisualElement : VisualElement
 {
-    const int anchoSprite = 132;
+    const uint anchoSprite = 132;
     Texture2D spriteShit = Resources.Load<Texture2D>("Sprites"); 
 
     VisualElement elem = new VisualElement();
-    Texture2D actText = new Texture2D(anchoSprite, anchoSprite);
-    int estado;
+    Texture2D actText = new Texture2D((int)anchoSprite, (int)anchoSprite);
+    uint estado;
     
-    public int Estado
+    public uint Estado
     {
         get => estado;
         set
@@ -21,8 +21,10 @@ public class InventoryVisualElement : VisualElement
     }
     void cambiarElemento()
     {
+        Debug.Log(spriteShit.GetPixels());
         //por arreglar
-        Color[] temp = spriteShit.GetPixels(anchoSprite * (estado % 6) , anchoSprite * (estado / 6), anchoSprite, anchoSprite);
+        uint modulo = estado % 22;
+        Color[] temp = spriteShit.GetPixels((int)(anchoSprite * (modulo % 6)) , (int)(anchoSprite * 3 - anchoSprite * (modulo / 6)),(int) anchoSprite,(int) anchoSprite);
         actText.SetPixels(temp);
         actText.Apply();
 
@@ -38,7 +40,7 @@ public class InventoryVisualElement : VisualElement
         {
             base.Init(ve, bag, cc);
             var elemento = ve as InventoryVisualElement;
-            elemento.Estado = myEstado.GetValueFromBag(bag, cc);        
+            elemento.Estado = (uint)myEstado.GetValueFromBag(bag, cc);        
         }
     }
 
