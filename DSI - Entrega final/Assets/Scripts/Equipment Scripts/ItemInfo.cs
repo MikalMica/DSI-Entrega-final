@@ -11,7 +11,7 @@ public class ItemInfo
     public event Action Cambio;
     public event Action preCambio;
 
-    private string _image;
+    public string _image;
     public string Image{
         get{return _image;}
         set{
@@ -21,7 +21,7 @@ public class ItemInfo
         }
     }
 
-    private string _info;
+    public string _info;
     public string Info{
         get{return _info;}
         set{
@@ -30,7 +30,7 @@ public class ItemInfo
         }
     }
 
-    private string _name;
+    public string _name;
     public string Name
     {
         get{return _name;}

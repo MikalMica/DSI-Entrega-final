@@ -1,7 +1,16 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/USS/FinalProj.uss?fileID=7433441132597879392&amp;guid=9be8ae4f65195854ebd8da944d7f4b3b&amp;type=3#FinalProj" />
     <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: column; background-color: rgb(41, 31, 45);">
-        <ui:VisualElement name="Up" style="flex-grow: 1; min-width: 100%; min-height: 15%;" />
+        <ui:VisualElement name="Up" style="flex-grow: 1; min-width: 100%; min-height: 15%; flex-direction: row;">
+            <ui:VisualElement name="Left" style="flex-grow: 1; background-image: resource(&apos;Sin título (Post de Facebook)(2) 1&apos;); height: auto; min-height: 100px; flex-direction: row;">
+                <ui:VisualElement name="ArrowContainer" style="flex-grow: 1; flex-direction: row-reverse;">
+                    <ui:VisualElement name="Arrow" style="flex-grow: 1; background-image: resource(&apos;Sin título (Post de Facebook)(3) 2&apos;);" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Blank" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Right" style="flex-grow: 1;" />
+        </ui:VisualElement>
         <ui:VisualElement name="Down" style="flex-grow: 1; flex-direction: row;">
             <ui:VisualElement name="Equiped" style="flex-grow: 1; min-width: 50%;">
                 <ui:VisualElement name="Character" style="flex-grow: 1; flex-direction: row-reverse; align-items: flex-start; max-width: none; background-image: resource(&apos;Hunter&apos;); min-width: 50%; -unity-background-image-tint-color: rgba(255, 255, 255, 0); align-self: auto;">

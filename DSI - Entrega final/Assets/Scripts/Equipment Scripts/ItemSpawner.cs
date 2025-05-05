@@ -32,6 +32,7 @@ public class ItemSpawner : MonoBehaviour
         Item aItem = new Item(item, info);
 
         Itemselector.Instance.addItem(item);
+        ItemStorer.Instance.AddItem(info);
     }
 
     ItemInfo getRandomItemInfo(){
