@@ -33,7 +33,7 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement class="Undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="Undiscovered undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                 </ui:VisualElement>
@@ -51,7 +51,7 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
@@ -87,7 +87,7 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
@@ -232,18 +232,18 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                 </ui:VisualElement>
                 <ui:VisualElement name="Column" style="flex-grow: 1;">
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
@@ -271,7 +271,7 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
@@ -305,7 +305,7 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
@@ -372,7 +372,7 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
@@ -381,29 +381,7 @@
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                </ui:VisualElement>
-                <ui:VisualElement name="Column" style="flex-grow: 1;">
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
@@ -436,7 +414,29 @@
                 <ui:VisualElement name="Column" style="flex-grow: 1;">
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
-                    <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Column" style="flex-grow: 1;">
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement style="flex-grow: 1;" />
+                    <ui:VisualElement class="undiscovered" style="flex-grow: 1; background-image: resource(&apos;SimboloLeyenda3&apos;);" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
                     <ui:VisualElement style="flex-grow: 1;" />
