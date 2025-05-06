@@ -101,3 +101,22 @@
 .Capa {
     background-image: resource('SoulCape');
 }
+
+.mainMission {
+}
+
+.playerPos {
+}
+
+.secondaryMission {
+}
+
+.undiscovered {
+}
+
+.dangerousEnemy {
+}
+
+.noTint {
+    -unity-background-image-tint-color: rgba(56, 56, 56, 0);
+}
