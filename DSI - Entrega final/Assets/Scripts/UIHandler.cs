@@ -7,15 +7,17 @@ public class UIHandler : MonoBehaviour
 {
     VisualElement map;
     VisualElement equipment;
+    VisualElement inventory;
 
     VisualElement mapArrowL;
     VisualElement mapArrowR;
     VisualElement equipmentArrow;
+    VisualElement inventoryArrow;
 
     private void HideContent(){
         map.style.display = DisplayStyle.None;
         equipment.style.display = DisplayStyle.None;
-        // TODO ocultar Inventory
+        inventory.style.display = DisplayStyle.None;
     }
 
     void OnEnable()
@@ -24,12 +26,12 @@ public class UIHandler : MonoBehaviour
 
         map = root.Q("Map");
         equipment = root.Q("Equipment");
-        // TODO asignar Inventory
+        inventory = root.Q("Inventory");
 
         mapArrowL = root.Q("MapArrowL");
         mapArrowR = root.Q("MapArrowR");
         equipmentArrow = root.Q("EquipmentArrow");
-        // TODO assignar flecha Inventory
+        inventoryArrow = root.Q("InventoryArrow");
 
         // * EQUIPMENT ARROW
         equipmentArrow.RegisterCallback<ClickEvent>(evt =>{
@@ -65,7 +67,8 @@ public class UIHandler : MonoBehaviour
         // * MAP LEFT ARROW
 
         mapArrowL.RegisterCallback<ClickEvent>(evt =>{
-            // TODO hacer que se cambie a Inventory
+            HideContent();
+            inventory.style.display = DisplayStyle.Flex;
         });
 
         mapArrowL.RegisterCallback<MouseEnterEvent>(evt =>{
@@ -79,7 +82,19 @@ public class UIHandler : MonoBehaviour
 
         // * INVENTORY ARROW
 
-        // TODO hacer logica de flecha de Inventory
+         inventoryArrow.RegisterCallback<ClickEvent>(evt =>{
+            HideContent();
+            map.style.display = DisplayStyle.Flex;
+        });
+
+        inventoryArrow.RegisterCallback<MouseEnterEvent>(evt =>{
+            inventoryArrow.style.unityBackgroundImageTintColor = Color.gray;
+        });
+
+        inventoryArrow.RegisterCallback<MouseLeaveEvent>(evt =>{
+            inventoryArrow.style.unityBackgroundImageTintColor = Color.white;
+
+        });
 
         HideContent();
         equipment.style.display = DisplayStyle.Flex;

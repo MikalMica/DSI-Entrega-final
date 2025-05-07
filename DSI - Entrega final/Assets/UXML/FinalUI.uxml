@@ -552,4 +552,66 @@
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
+    <ui:VisualElement name="Inventory" style="flex-grow: 1; flex-direction: column; flex-wrap: wrap; background-color: rgb(41, 31, 45);">
+        <ui:VisualElement name="top" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="left" style="flex-grow: 1; background-image: resource(&apos;DecoracionEsquinaDerechaInferior&apos;); rotate: 180deg; -unity-background-scale-mode: stretch-to-fill; flex-direction: row; scale: 1.5 1.5; translate: 25% 25%;">
+                <ui:VisualElement style="flex-grow: 1; scale: 0.5 0.5; rotate: 180deg; translate: 10% 10px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="center" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="INVENTORY" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: normal; font-size: 30px;" />
+                <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Diseño sin título(9) 1&apos;); scale: 0.8 0.8; -unity-background-scale-mode: scale-to-fit; translate: 0 -45%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="right" style="flex-grow: 1; background-image: resource(&apos;DecoracionEsquinaDerechaInferior&apos;); scale: 1.5 -1.5; -unity-background-scale-mode: stretch-to-fill; flex-direction: row; translate: -25% 25%;">
+                <ui:VisualElement name="InventoryArrow" style="flex-grow: 1; scale: -0.5 0.5; translate: 10px 10px; background-image: resource(&apos;Sin título (Post de Facebook)(3) 2&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="mid" style="flex-grow: 1; height: 40%; flex-direction: row;">
+            <ui:VisualElement name="left" style="flex-grow: 1; width: 50%; border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; flex-direction: column; flex-wrap: nowrap;">
+                <ui:Label tabindex="-1" text="POTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" style="-unity-text-align: upper-center; font-size: 25px;" />
+                <ui:VisualElement name="potions" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
+                    <InventoryVisualElement estado="0" class="potions" />
+                    <InventoryVisualElement estado="1" class="potions" />
+                    <InventoryVisualElement estado="2" class="potions" />
+                    <InventoryVisualElement estado="3" class="potions" />
+                    <InventoryVisualElement estado="4" class="potions" />
+                    <InventoryVisualElement estado="5" class="potions" />
+                    <InventoryVisualElement estado="6" class="potions" />
+                    <InventoryVisualElement estado="19" class="potions" />
+                    <InventoryVisualElement estado="19" class="potions" />
+                    <InventoryVisualElement estado="19" tamaño="100" class="potions" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="center" style="flex-grow: 1; background-image: resource(&apos;DecoracionFlecha&apos;);" />
+            <ui:VisualElement name="right" style="flex-grow: 1; width: 40%; border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px;">
+                <ui:Label tabindex="-1" text="SPELL BOOKS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" style="-unity-text-align: upper-center; font-size: 25px;" />
+                <ui:VisualElement name="spellBooks" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
+                    <InventoryVisualElement estado="7" class="spellBooks" />
+                    <InventoryVisualElement estado="8" class="spellBooks" />
+                    <InventoryVisualElement estado="9" class="spellBooks" />
+                    <InventoryVisualElement estado="10" class="spellBooks" />
+                    <InventoryVisualElement estado="11" class="spellBooks" />
+                    <InventoryVisualElement estado="12" class="spellBooks" />
+                    <InventoryVisualElement estado="20" class="spellBooks" />
+                    <InventoryVisualElement estado="20" tamaño="100" class="spellBooks" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom" style="flex-grow: 1; height: 15%;">
+            <ui:VisualElement name="top" style="flex-grow: 1; height: 20%; flex-direction: row; align-self: center; justify-content: space-around; align-items: stretch;">
+                <ui:VisualElement name="decoration" style="flex-grow: 1; background-image: resource(&apos;DecoracionMediaFlecha&apos;); scale: 0.25 1; translate: 35% 0;" />
+                <ui:Label tabindex="-1" text="POTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" style="-unity-text-align: upper-center; font-size: 25px;" />
+                <ui:VisualElement name="decoration" style="flex-grow: 1; background-image: resource(&apos;DecoracionMediaFlecha&apos;); scale: -0.25 1; translate: -35% 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="bottom" style="flex-grow: 1; height: 80%; flex-direction: row; justify-content: space-around; border-top-width: 10px; border-right-width: 80px; border-bottom-width: 10px; border-left-width: 80px;">
+                <InventoryVisualElement estado="13" />
+                <InventoryVisualElement estado="14" />
+                <InventoryVisualElement estado="15" />
+                <InventoryVisualElement estado="16" />
+                <InventoryVisualElement estado="17" />
+                <InventoryVisualElement estado="18" />
+                <InventoryVisualElement estado="21" />
+                <InventoryVisualElement estado="21" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>
