@@ -6,8 +6,8 @@
                 <ui:VisualElement name="arrow" style="flex-grow: 1; background-image: resource(&apos;Sin título (Post de Facebook)(3) 2&apos;); width: auto; height: auto; scale: 0.4 1; translate: -30% 0;" />
             </ui:VisualElement>
             <ui:VisualElement name="center" style="flex-grow: 1; min-height: auto; align-self: stretch; flex-direction: column; justify-content: space-around; min-width: 25%;">
-                <ui:Label tabindex="-1" text="MAP" parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="false" name="title" style="color: rgb(255, 255, 255); font-size: 25%; -unity-text-align: upper-center; height: auto; width: auto; white-space: nowrap;" />
-                <ui:VisualElement name="laurel" style="flex-grow: 1; background-image: resource(&apos;Diseño sin título(9) 1&apos;); scale: 0.8 1.2; translate: 0 -31%;" />
+                <ui:Label tabindex="-1" text="MAP" parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="false" name="title" style="color: rgb(255, 255, 255); font-size: 30%; -unity-text-align: upper-center; height: auto; width: auto; white-space: nowrap; -unity-font: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;);" />
+                <ui:VisualElement name="laurel" style="flex-grow: 1; background-image: resource(&apos;Diseño sin título(9) 1&apos;); scale: 0.7 1.2; translate: 0 -31%;" />
             </ui:VisualElement>
             <ui:VisualElement name="right" style="flex-grow: 1; min-width: 25%; min-height: 10%;">
                 <ui:VisualElement name="arrow" style="flex-grow: 1; background-image: resource(&apos;Sin título (Post de Facebook)(3) 2&apos;); width: auto; height: auto; scale: -0.4 1; translate: 30% 0;" />

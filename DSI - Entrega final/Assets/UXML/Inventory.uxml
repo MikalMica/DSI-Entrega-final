@@ -1,9 +1,17 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/USS/FinalProj.uss?fileID=7433441132597879392&amp;guid=9be8ae4f65195854ebd8da944d7f4b3b&amp;type=3#FinalProj" />
-    <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
-        <InventoryVisualElement estado="21" />
-        <InventoryVisualElement estado="0" />
-        <InventoryVisualElement estado="0" />
-        <InventoryVisualElement />
+    <ui:VisualElement name="Inventory" style="flex-grow: 1; flex-direction: column; flex-wrap: wrap; background-color: rgb(41, 31, 45);">
+        <ui:VisualElement name="top" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="left" style="flex-grow: 1; background-image: resource(&apos;DecoracionEsquinaDerechaInferior&apos;); rotate: 180deg; -unity-background-scale-mode: scale-to-fit; flex-direction: row; scale: 2 2; translate: 55% 15%;" />
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:VisualElement name="center" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: normal; font-size: 30px;" />
+                <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;Diseño sin título(9) 1&apos;); scale: 0.8 0.8; -unity-background-scale-mode: scale-to-fit; translate: 0 -20%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:VisualElement name="right" style="flex-grow: 1; background-image: resource(&apos;DecoracionEsquinaDerechaInferior&apos;); scale: 2 -2; -unity-background-scale-mode: scale-to-fit; flex-direction: row; translate: -55% 15%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="mid" style="flex-grow: 1; height: 40%;" />
+        <ui:VisualElement name="bottom" style="flex-grow: 1;" />
     </ui:VisualElement>
 </ui:UXML>

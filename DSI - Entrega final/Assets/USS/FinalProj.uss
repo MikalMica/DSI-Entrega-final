@@ -42,7 +42,7 @@
 
 .unity-text-element {
     color: rgb(255, 255, 255);
-    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=9771268da94f81a4b884af26e952c12a&type=3#NotInter-Regular');
+    -unity-font: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
 }
 
 .legenInfo {
