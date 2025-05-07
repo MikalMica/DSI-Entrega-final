@@ -120,3 +120,22 @@
 .noTint {
     -unity-background-image-tint-color: rgba(56, 56, 56, 0);
 }
+
+.potions {
+    width: 20%;
+    height: 50%;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.spellBooks {
+    width: 25%;
+    height: 50%;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    -unity-background-scale-mode: scale-to-fit;
+}
